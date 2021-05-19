@@ -6,7 +6,6 @@ import os
 url = 'https://yt-downloader-by-abhi.herokuapp.com/Music'
 if os.path.exists('Music'):
     print("Path Exist")
-    os.path.basename()
 else:
     os.mkdir('Music')
     print("Created the path")
