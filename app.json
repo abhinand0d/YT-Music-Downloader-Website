@@ -1,14 +1,20 @@
 {
+    "name": "YT-Music-Downloader-Website",
+    "description": "I have made youtube music downloader with YouTube-dl Library and it's hostable in heroku. Project is in process not yet deployable. ",
+    "keywords": [
+      "music",
+      "youtube",
+      "youtube-dl",
+      "python",
+      "streamlit"
+    ],
+    "repository": "https://github.com/abhinand0d/YT-Music-Downloader-Website",
     "buildpacks": [
       {
-        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
       },
       {
-        "url": "heroku/heroku-buildpack-ffmpeg-latest"
-      },
-      {
-        "url":"https://github.com/ytdl-org/youtube-dl.git"
+        "url": "heroku/python"
       }
     ]
   }
-  
