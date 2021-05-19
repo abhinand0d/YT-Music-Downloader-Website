@@ -18,8 +18,8 @@ input = st.text_input("Enter Youtube URL Here:")
 def download_to_client():
     global get_title
     st.markdown('### Download Mp3 ###')
-    st.markdown('<a href="'+url+'/'+get_title+'.mp3" download>Download'+get_title+'</a>',unsafe_allow_html=True )
-        
+    # st.markdown('<a href="'+url+'/'+get_title+'.mp3" download>Download'+get_title+'</a>',unsafe_allow_html=True )
+    st.audio("Music/"+get_title+".mp3")
 
 
 def download():
