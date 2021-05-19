@@ -5,6 +5,9 @@
       },
       {
         "url": "heroku/heroku-buildpack-ffmpeg-latest"
+      },
+      {
+        "url":"https://github.com/ytdl-org/youtube-dl"
       }
     ]
   }
