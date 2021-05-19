@@ -1,13 +1,13 @@
 {
     "buildpacks": [
       {
-        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
       },
       {
         "url": "heroku/heroku-buildpack-ffmpeg-latest"
       },
       {
-        "url":"https://github.com/ytdl-org/youtube-dl"
+        "url":"https://github.com/ytdl-org/youtube-dl.git"
       }
     ]
   }
