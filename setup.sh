@@ -8,6 +8,6 @@ headless = true\n\
 \n\
 " > ~/.streamlit/config.toml
 
-sudo apt-get install ffmpeg
+apt-get install ffmpeg
 
-sudo youtube-dl -U
+youtube-dl -U
