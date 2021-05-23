@@ -20,6 +20,8 @@ def download_to_client():
     st.markdown('### Download Mp3 ###')
     # st.markdown('<a href="'+url+'/'+get_title+'.mp3" download>Download'+get_title+'</a>',unsafe_allow_html=True )
     st.audio("Music/Music"+str(timea)+".mp3")
+    st.markdown('Click and Hold the Audio file and save the audio in case of android in case of PC please use three dot and choose download')
+    st.text('Please Rename the file after installation as I haven;t found any solutions for that')
 
 
 def download():
@@ -54,6 +56,6 @@ def download():
 
 
 
-if st.button("Download video"):
+if st.button("Stream/Download Audio"):
     download()
     
